@@ -1,4 +1,4 @@
-import mysql.connector 
+import mysql.connector
 from mysql.connector import Error
 
 def create_database():
@@ -6,7 +6,7 @@ def create_database():
         connection = mysql.connector.connect(
             host='localhost',
             user = 'root',
-            password = 'password',
+            password = 'mihret#6793',
         )
 
         if connection.is_connected():
